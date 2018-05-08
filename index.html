@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>West Elm</title>
+  <meta name="description" content="West Elm Challenge">
+  <meta name="author" content="Gregory Rzeczko">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.2">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <img src="images/logo.png" class="logo img-responsive" />
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">COOKWARE <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">COOKS' TOOLS</a>
+          <a class="nav-item nav-link" href="#">CUTLERY</a>
+          <a class="nav-item nav-link" href="#">ELECTRICS</a>
+          <a class="nav-item nav-link" href="#">BAKEWARE</a>
+          <a class="nav-item nav-link" href="#">FOOD</a>
+          <a class="nav-item nav-link" href="#">TABLETOP &amp; BAR</a>
+          <a class="nav-item nav-link" href="#">HOMEKEEPING</a>
+          <a class="nav-item nav-link" href="#">OUTDOOR</a>
+          <a class="nav-item nav-link" href="#">SALE</a>
+          <a class="nav-item nav-link active" href="#">WILLIAMS-SONOMA HOME</a>
+        </div>
+      </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Homekeeping</a></li>
+        <li class="breadcrumb-item"><a href="#">Aprons</a></li>
+        <li class="breadcrumb-item"><a href="#">Adult Aprons</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Williams-Sonoma Classic Apron, French Blue</li>
+      </ol>
+    </nav>
+    <div class="row">
+      <div class="col-sm-7">
+        <img src="images/product-large-a.jpg" class="img-responsive main-image" />
+        <div class="thumbnails">
+          <div class="thumbnail">
+            <img src="images/product-small-a.jpg" data-id="a" class="img-responsive selected" />
+          </div>
+          <div class="thumbnail">
+            <img src="images/product-small-b.jpg" data-id="b" class="img-responsive" />
+          </div>
+          <div class="thumbnail">
+            <img src="images/product-small-c.jpg" data-id="c" class="img-responsive" />
+          </div>
+          <div class="thumbnail">
+            <img src="images/product-small-d.jpg" data-id="d" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <h1>Williams-Sonoma Classic Apron, French Blue</h1>
+        <p>
+          A generously sized apron is a necessity in any kitchen, and ours will
+          brighten yours with lively color. Sewn of thick cotton, it can be
+          personalized or monogrammed with up to nine characters, all the same
+          height, embroidered in your choice of color. An apron of this quality
+          makes a welcome gift for any cook.
+        </p>
+        <ul>
+          <li>Durable 100% cotton construction.</li>
+          <li>Adjustable neckband ensures a good fit.</li>
+          <li>Roomy front pockets hold small tools.</li>
+          <li>Machine-wash.</li>
+        </ul>
+        <h2>$19.95</h2>
+        <select name="quantity" id="quantity">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        <br /><br />
+        <p>
+          <img src="images/button-add-to-cart.png" data-toggle="modal" data-target="#exampleModal" />
+        </p>
+        <div class="expand">
+          <div class="box">
+            <div class="title">
+              <a href="">
+                <img src="images/arrow-expanded.png" /> EXPANDED
+              </a>
+            </div>
+            <div class="text">
+              This section is expanded. This section can be collapsed by clicking
+              the "Expanded" text. This section is expanded. This section can
+              be collapsed by clicking the "Expanded" text.
+            </div>
+          </div>
+          <div class="box collapsed">
+            <div class="title">
+              <a href="">
+                <img src="images/arrow-collapsed.png" /> COLLAPSED
+              </a>
+            </div>
+            <div class="text">
+              This section is expanded. This section can be collapsed by clicking
+              the "Expanded" text. This section is expanded. This section can
+              be collapsed by clicking the "Expanded" text.
+            </div>
+          </div>
+          <div class="box collapsed">
+            <div class="title">
+              <a href="">
+                <img src="images/arrow-collapsed.png" /> COLLAPSED
+              </a>
+            </div>
+            <div class="text">
+              This section is expanded. This section can be collapsed by clicking
+              the "Expanded" text. This section is expanded. This section can
+              be collapsed by clicking the "Expanded" text.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        &copy; 2018 Williams-Sonoma Inc., All Rights Reserved | Terms and Conditions | Privacy Policy | Legal Statement
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Successfully Added to Cart!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
